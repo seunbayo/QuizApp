@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    height: 300px;
+    width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 4px solid #0003bc;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #08038c;
+}
+
+.question {
+    padding: 20px;
+    font-size: 22px;
+    background-color: teal;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: #f6f6f6;
+}
+
+.option {
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    width: 400px;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.5);;
+    margin: 10px 0 10px 10px;
+    color: #000000;
+    border-radius: 20px;
+}
+
+.option:hover {
+    background-color: #08038C;
+    color: #F6F6F6;
+}
+
+.next-btn {
+    border: none;
+    outline: none;
+    background-color: rgba(255, 25, 255, 0.5);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.next-btn:hover {
+    color: #f6f6f6;
+    background-color: #08038c;
+}
+
+.result {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option {
+    color: #000000;
+    
+
+}
