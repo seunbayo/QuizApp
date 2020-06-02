@@ -45,6 +45,7 @@ background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, F
 .option:hover {
     background-color: #08038C;
     color: #F6F6F6;
+    cursor: pointer;
 }
 
 .next-btn {
@@ -72,6 +73,11 @@ background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, F
 
 .option input:checked .option {
     color: #000000;
-    
-
 }
+
+
+
+
+/* .container_result { */
+    /* display: none; */
+/* } */
